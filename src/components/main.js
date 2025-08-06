@@ -96,7 +96,7 @@ export default function Main() {
           <Item sx={{ backgroundColor: "#202b3b" }}>
             <div>
               <img
-                src="/images/blue-umbrella-isolated-white-background-fotor-bg-remover-2025080515207.png"
+                src={`${process.env.PUBLIC_URL}/images/blue-umbrella.png`}
                 style={{ width: "100%", height: "100%" }}
               />
             </div>
